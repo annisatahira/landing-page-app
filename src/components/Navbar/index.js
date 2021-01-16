@@ -27,6 +27,17 @@ const Navbar = () => {
       window.removeEventListener('resize', showButton)
     )
   }, []);
+
+  document.addEventListener('scroll', function(e) {
+    const scrollHeight = window.scrollY;
+    const nav = document.getElementsByClassName('navbar');
+  
+    if (scrollHeight > 30) {
+      nav[0].style.background = 'black';
+    } else {
+      nav[0].style.background = 'transparent';
+    }
+  });
   
   return (
     <>
