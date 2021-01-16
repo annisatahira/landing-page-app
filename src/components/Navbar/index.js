@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaAngleDown, FaBars, FaSearch, FaTimes } from 'react-icons/fa';
+import { FaAngleDown, FaBars, FaTimes } from 'react-icons/fa';
 import { Button } from '../Button';
 import './style.css'
 import { cart, logo, search } from '../../utils/assets';
@@ -59,13 +59,13 @@ const Navbar = () => {
             </div>
             <ul className={menuClicked ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='/prakerja' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='#prakerja' className='nav-links' onClick={closeMobileMenu}>
                   Prakerja
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/kelas'
+                  to='#kelas'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -75,7 +75,7 @@ const Navbar = () => {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/kursus'
+                  to='#kursus'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -84,7 +84,7 @@ const Navbar = () => {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/tentang'
+                  to='#tentang'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -93,7 +93,7 @@ const Navbar = () => {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/blog'
+                  to='#blog'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -102,7 +102,7 @@ const Navbar = () => {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/blog'
+                  to='#cart'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -114,7 +114,7 @@ const Navbar = () => {
               <li className='nav-btn'>
                 {button ? (
                   <>
-                  <Link to='/masuk' className='btn-link'>
+                  <Link to='#masuk' className='btn-link'>
                     <Button 
                       buttonStyle='btn--outline'
                       buttonColor='white'
@@ -122,7 +122,7 @@ const Navbar = () => {
                       Masuk
                     </Button>
                   </Link>
-                  <Link to='/daftar' className='btn-link'>
+                  <Link to='#daftar' className='btn-link'>
                     <Button 
                       buttonStyle='btn--outline'
                       buttonColor='blue'
@@ -132,7 +132,7 @@ const Navbar = () => {
                   </Link>
                   </>
                 ) : (
-                  <Link to='/sign-up' className='btn-link'>
+                  <Link to='#sign-up' className='btn-link'>
                     <Button
                       buttonStyle='btn--outline'
                       buttonSize='btn--mobile'
