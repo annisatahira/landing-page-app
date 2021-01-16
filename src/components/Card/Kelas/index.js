@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const CardKelas = ({img, captio}) => {
+const CardKelas = ({id, img, title}) => {
   return (
     <div className="card card-kelas-wrapper">
       <div className="card-kelas-image-wrapper">

@@ -1,13 +1,13 @@
 import React from 'react';
-import CardKelas from '../../Card/Kelas';
 import Jumbotron from '../../Jumbotron';
-import {homeObjJumbotron} from './Data';
+import { homeObjJumbotron, homeObjKelas } from './Data';
+import KelasSection from './Section/Kelas';
 
 const Home = () => {
   return (
     <>
       <Jumbotron {...homeObjJumbotron} />
-      <CardKelas />
+      <KelasSection {...homeObjKelas}/>
     </>
   )
 };

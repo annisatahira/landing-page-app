@@ -3,7 +3,7 @@
 }
 
 .card-kelas-wrapper {
-  width: 200px;
+  width: 100%;
   height: 180px;
   text-align: center;
   padding: 20px 0;
@@ -11,10 +11,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 1px 25px 48px 13px rgba(220,220,220,0.63);
-  -webkit-box-shadow: 1px 25px 48px 13px rgba(220,220,220,0.63);
-  -moz-box-shadow: 1px 25px 48px 13px rgba(220,220,220,0.63);
+  box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
+-webkit-box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
+-moz-box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
   position: relative;
+  margin: 0 10px;
 }
 
 .card-kelas-image-wrapper {
@@ -42,4 +43,15 @@
 .card-kelas-title {
   padding: 80px 0 10px 0;
   font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-kelas-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .card-kelas-image img {
+    height: 50px;
+  }
 }
