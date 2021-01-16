@@ -2,7 +2,7 @@
   border-radius: 18px;
 }
 
-.card-info-wrapper {
+.card-kelas-wrapper {
   width: 200px;
   height: 180px;
   text-align: center;
@@ -17,14 +17,14 @@
   position: relative;
 }
 
-.card-info-image-wrapper {
+.card-kelas-image-wrapper {
   position: absolute;
   top: 13%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.card-info-image {
+.card-kelas-image {
   background-color: #f2f2f3;
   border-radius: 50%;
   height: 120px;
@@ -32,14 +32,14 @@
   position: relative;
 }
 
-.card-info-image img {
+.card-kelas-image img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.card-info-title {
+.card-kelas-title {
   padding: 80px 0 10px 0;
   font-size: 18px;
 }
