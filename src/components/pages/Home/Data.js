@@ -157,3 +157,29 @@ export const homeObjTraining = {
     }
   ]
 };
+
+export const homeObjTestimoni = {
+  "testimoni" : [
+    {
+      id: 1,
+      image:"/images/testimoni1.png",
+      comment: "Saya beruntung bergabung ke kursus di Arkademi. Metode penyampaian sangat jelas singkat dan memudahkan belajar. Ditambah lagi tampilan presentasi yang membuat kita tidak jenuh dalam belajar online.",
+      name: "Jules",
+      profession: "Database Manager"
+    },
+    {
+      id: 2,
+      image:"/images/testimoni1.png",
+      comment: "Saya beruntung bergabung ke kursus di Arkademi. Metode penyampaian sangat jelas singkat dan memudahkan belajar. Ditambah lagi tampilan presentasi yang membuat kita tidak jenuh dalam belajar online.",
+      name: "Jules",
+      profession: "Database Manager"
+    },
+    {
+      id: 3,
+      image:"/images/testimoni1.png",
+      comment: "Saya beruntung bergabung ke kursus di Arkademi. Metode penyampaian sangat jelas singkat dan memudahkan belajar. Ditambah lagi tampilan presentasi yang membuat kita tidak jenuh dalam belajar online.",
+      name: "Jules",
+      profession: "Database Manager"
+    },
+  ]
+};

@@ -6,12 +6,14 @@ import {
 	homeObjKelas, 
 	homeObjKursus,
 	homeObjOption,
-      homeObjTraining
+      homeObjTraining,
+      homeObjTestimoni
 } from './Data';
 import KelasSection from './Section/Kelas';
 import OptionSection from './Section/Option';
 import PendaftaranSection from './Section/Pendaftaran';
 import FeaturedSection from './Section/Featured';
+import TestimoniSection from './Section/Testimoni';
 
 const Home = () => {
   return (
@@ -54,6 +56,7 @@ const Home = () => {
       />
       <PendaftaranSection {...homeObjTraining} />
       <FeaturedSection />
+      <TestimoniSection {...homeObjTestimoni}/>
     </>
   )
 };

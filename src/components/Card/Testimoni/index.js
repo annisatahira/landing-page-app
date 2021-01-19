@@ -1,17 +1,17 @@
 import React from 'react';
 import './style.css';
 
-const CardTestimoni = () => {
+const CardTestimoni = ({image, alt, comment, name, profession}) => {
   return (
     <div className="card-testimoni-wrapper">
     	<img className="card-testimoni-comment" src="/icons/comment.png" alt="" />
 	    <div className="card-testimoni-content">
-				Saya beruntung bergabung ke kursus di Arkademi. Metode penyampaian sangat jelas singkat dan memudahkan belajar. Ditambah lagi tampilan presentasi yang membuat kita tidak jenuh dalam belajar online.
+			{comment}
 	    </div>
 	    <div className="card-testimoni-person">
-	    	<img src="/images/testimoni1.png" alt=""/>
-	    	<h1 className="person-name">Jules</h1>
-	    	<p className="person-work">Database Manager</p>
+	    	<img src={image} alt={name}/>
+	    	<h1 className="person-name">{name}</h1>
+	    	<p className="person-work">{profession}</p>
 	    </div>
 	  </div>
   )
