@@ -1,8 +1,6 @@
 import React from 'react';
-import CardKursus from '../../Card/Kursus';
-import CardTraining from '../../Card/Training';
-import CardTestimoni from '../../Card/Testimoni';
 import Jumbotron from '../../Jumbotron';
+import ContainerKursus from '../../Container/Kursus';
 import { homeObjJumbotron, homeObjKelas } from './Data';
 import KelasSection from './Section/Kelas';
 
@@ -11,9 +9,7 @@ const Home = () => {
     <>
       <Jumbotron {...homeObjJumbotron} />
       <KelasSection {...homeObjKelas}/>
-      <CardKursus />
-      <CardTraining />
-      <CardTestimoni />
+      <ContainerKursus />
     </>
   )
 };

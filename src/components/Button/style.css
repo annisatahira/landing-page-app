@@ -65,7 +65,7 @@
   transition: all 0.3s ease-out;
 }
 
-.primary, .white, .blue, .grey {
+.primary, .white, .blue, .grey, .transparent {
   border: 10px;
   border-radius: 8px;
   margin: 5px;
@@ -97,7 +97,6 @@
 .transparent {
   background-color: transparent;
   color: #FFF;
-  border: none;
 }
 
 .grey {

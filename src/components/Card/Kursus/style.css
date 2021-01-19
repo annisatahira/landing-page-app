@@ -2,6 +2,7 @@
 
 .card {
   border-radius: 18px;
+  margin-top: 25px
 }
 
 .card-kursus-wrapper {
@@ -9,6 +10,7 @@
   height: 500px;
   padding: 20px 0; 
   position: relative;
+  background: #FFF;
   box-shadow: 0px 9px 4.5px rgba(68,69,76,0.13);
 }
 
@@ -29,6 +31,7 @@
   font-size: 22px;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+  color: #171718;
 }
 
 .card-kursus-status {
@@ -72,6 +75,7 @@ hr {
 
 .teacher-name {
   font-size: 18px;
+  color: #171718;
 }
 
 .card-kursus-checkout {
@@ -88,6 +92,7 @@ hr {
 
 .harga-diskon {
   font-size: 25px;
+  color: #171718;
 }
 
 .harga-normal {

@@ -1,0 +1,21 @@
+.card-option-wrapper {
+  width: 500px;
+  padding: 50px 50px; 
+  text-align: center;
+}
+
+.card-option-wrapper img {
+	height: 200px;
+	width: 200px;
+	margin-bottom: 40px
+}
+
+.card-option-title {
+	font-size: 28px;
+	padding-bottom: 20px;
+}
+
+.card-option-description {
+	line-height: 1.5rem;
+	color: #6b707e;
+}
