@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+
+.card {
+  border-radius: 18px;
+}
+
+.card-training-wrapper {
+  width: 50%;
+  height: 400px;
+  padding: 50px 50px; 
+  text-align: center;
+  border: 5px solid #ececed;
+}
+
+.card-training-icon img {
+  width: 100px;
+  height: 100px;
+  background: black;
+}
+
+.card-training-title {
+  padding: 20px 0;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-training-description {
+  font-size: 18px;
+  line-height: 1.7rem;
+  padding-bottom: 25px
+}
+
