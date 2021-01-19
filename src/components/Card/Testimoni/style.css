@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+
+.card-testimoni-wrapper {
+  width: 400px;
+  height: 500px;
+  padding: 30px; 
+  text-align: center;
+}
+
+.card-testimoni-comment {
+	padding: 20px 0;
+}
+
+.card-testimoni-content {
+	line-height: 1.5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.card-testimoni-person img {
+	width: 60px;
+	height: 60px;
+	margin: 20px 0;
+}
+
+.person-name {
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+.person-work {
+	color: #262626;
+}

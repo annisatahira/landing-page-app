@@ -1,6 +1,7 @@
 import React from 'react';
 import CardKursus from '../../Card/Kursus';
 import CardTraining from '../../Card/Training';
+import CardTestimoni from '../../Card/Testimoni';
 import Jumbotron from '../../Jumbotron';
 import { homeObjJumbotron, homeObjKelas } from './Data';
 import KelasSection from './Section/Kelas';
@@ -12,6 +13,7 @@ const Home = () => {
       <KelasSection {...homeObjKelas}/>
       <CardKursus />
       <CardTraining />
+      <CardTestimoni />
     </>
   )
 };
