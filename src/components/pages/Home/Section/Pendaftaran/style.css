@@ -1,0 +1,29 @@
+.container-pendaftaran {
+	text-align: center;
+}
+
+.pendaftaran-wrapped {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.pendaftaran-title {
+	font-size: 48px;
+	padding: 40px 0;
+}
+
+.pendaftaran-description-1, .pendaftaran-description-2 {
+	font-size: 20px;
+	line-height: 1.7rem;
+}
+
+.pendaftaran-description-2 {
+	padding: 20px 0 40px 0;
+}
+
+.pendaftaran-options {
+	padding: 40px;
+	width: 90%;
+	margin: 0 auto;
+}
+

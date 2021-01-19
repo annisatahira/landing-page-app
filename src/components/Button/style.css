@@ -9,12 +9,14 @@
   cursor: pointer;
   white-space: nowrap;
   border-radius: 8px;
+  font-weight: bold;
 };
 
 .btn--primary {
   background-color: var(--primary);
   color: #242424;
   border: 1px solid var(--primary);
+  font-weight: bold;
 };
 
 .btn--outline {
@@ -23,16 +25,19 @@
   padding: 8px 20px;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
+  font-weight: bold;
 }
 
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .btn--large {
   padding: 15px 25px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .btn--mobile {
@@ -46,29 +51,34 @@
   padding: 14px;
   border: 1px solid #FFF;
   transition: all 0.3 ease-out;
+  font-weight: bold;
 }
 
 .btn--wide {
   padding: 20px 64px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .btn--large:hover, .btn-medium:hover, .btn-mobile:hover {
   transition: all 0.3s ease-out;
   background: #FFF;
   color: #242424;
+  font-weight: bold;
 }
 
 .btn--wide:hover {
   color: #FFF;
   background-color: #f00946;
   transition: all 0.3s ease-out;
+  font-weight: bold;
 }
 
 .primary, .white, .blue, .grey, .transparent {
   border: 10px;
   border-radius: 8px;
   margin: 5px;
+  font-weight: bold;
 }
 
 .primary {

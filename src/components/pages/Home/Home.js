@@ -1,8 +1,16 @@
 import React from 'react';
 import Jumbotron from '../../Jumbotron';
 import ContainerKursus from '../../Container/Kursus';
-import { homeObjJumbotron, homeObjKelas, homeObjKursus } from './Data';
+import { 
+	homeObjJumbotron, 
+	homeObjKelas, 
+	homeObjKursus,
+	homeObjOption,
+      homeObjTraining
+} from './Data';
 import KelasSection from './Section/Kelas';
+import OptionSection from './Section/Option';
+import PendaftaranSection from './Section/Pendaftaran';
 
 const Home = () => {
   return (
@@ -27,6 +35,7 @@ const Home = () => {
       	title="Best Seller"
       	items={homeObjKursus}
       />
+      <OptionSection {...homeObjOption}/>
       <ContainerKursus 
       	title="Kursus Gratis"
       	items={homeObjKursus}
@@ -42,6 +51,7 @@ const Home = () => {
       	items={homeObjKursus}
       	enableMore={true}
       />
+      <PendaftaranSection {...homeObjTraining} />
     </>
   )
 };

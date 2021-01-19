@@ -86,6 +86,9 @@
 }
 
 /* Custom Arrow Carousel*/
+.react-multi-carousel-track {
+   padding: 10px 0;
+}
 .react-multiple-carousel__arrow {
 	border-radius: 50%;
   background: white;

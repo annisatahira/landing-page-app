@@ -2,23 +2,24 @@ import React from 'react';
 import { Button } from '../../Button';
 import './style.css';
 
-const CardTraining = () => {
+const CardTraining = ({image, alt, title, description, buttonTitle}) => {
     return (
       <div className="card card-training-wrapper">
         <div className="card-training-icon">
-          <img src="/icons/training1.png" alt=""/>
+          <img src={image} alt={alt}/>
         </div>
         <h1 className="card-training-title">
-          Daftar Menjadi Pengajar
+          {title}
         </h1>
         <div className="card-training-description">
-          Mengajar ke siswa dari seluruh Indonesia tanpa batas dengan mengajar secara online di Arkademi. Biaya Rp0.
+          {description}
         </div>
         <Button 
           buttonSize="btn--wide"
           buttonColor="grey"
+          className="btn-pendaftaran"
         >
-          Mulai Mengajar
+          {buttonTitle}
         </Button>
       </div>
     )
