@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+
+.card {
+  border-radius: 18px;
+}
+
+.card-kursus-wrapper {
+  width: 350px;
+  height: 500px;
+  padding: 20px 0; 
+  position: relative;
+}
+
+.card-kursus-image-wrapper {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-kursus-image-wrapper img {
+  width: 310px;
+  border-radius: 18px;
+}
+
+.card-kursus-title {
+  padding: 130px 30px 10px 30px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.card-kursus-status {
+  display: flex;
+  padding: 10px 30px 30px 30px;
+  color: #545457;
+  align-items: center;
+}
+
+.star {
+  color: #fccb06;
+}
+
+.rating {
+  padding-left: 5px;
+}
+
+.people {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+hr {
+  width: 90%;
+}
+
+.card-kursus-teacher {
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  padding: 12px 0;
+}
+
+.teacher-image img {
+  height: 50px;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+.teacher-name {
+  font-size: 18px;
+}
+
+.card-kursus-checkout {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.checkout-harga {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.harga-diskon {
+  font-size: 25px;
+}
+
+.harga-normal {
+  padding-left: 10px;
+  font-size: 15px;
+  text-decoration: line-through;
+  color: #545457;
+}
+
+
+

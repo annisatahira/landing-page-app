@@ -12,8 +12,8 @@
   justify-content: center;
   flex-direction: column;
   box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
--webkit-box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
--moz-box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
+  -webkit-box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
+  -moz-box-shadow: 2px 33px 48px -1px rgba(230,230,230,0.63);
   position: relative;
   margin: 0 10px;
 }
