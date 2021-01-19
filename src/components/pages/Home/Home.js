@@ -11,6 +11,7 @@ import {
 import KelasSection from './Section/Kelas';
 import OptionSection from './Section/Option';
 import PendaftaranSection from './Section/Pendaftaran';
+import FeaturedSection from './Section/Featured';
 
 const Home = () => {
   return (
@@ -52,6 +53,7 @@ const Home = () => {
       	enableMore={true}
       />
       <PendaftaranSection {...homeObjTraining} />
+      <FeaturedSection />
     </>
   )
 };

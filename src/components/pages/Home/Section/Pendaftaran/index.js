@@ -25,7 +25,7 @@ const PendaftaranSection = (data) => {
 			</div>
 			<div className="pendaftaran-options">
 				<Grid container spacing={4}>
-					{data.trainings.map((item) => {
+					{(data ? data.trainings : []).map((item) => {
 
 						return (
 							<Grid key={item.id} item lg={6}>
