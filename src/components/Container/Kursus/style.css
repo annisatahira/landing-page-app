@@ -14,13 +14,33 @@
 	display: flex;
 	display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .card-list-title {
 	padding-bottom: 70px;
 	font-size: 42px;
-	font-weight: bold;
+	font-weight: bolder;
+}
+
+.card-list-more {
+  color: #171718;
+  font-size: 25px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.card-list-title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.card-list-title-center {
+  justify-content: center;
+}
+
+.card-list-title-left {
+  justify-content: space-between;
 }
 
 .card-kursus-list-button {
@@ -28,13 +48,22 @@
 	text-align: center;
 }
 
+.gr-next-icon {
+  font-size: 40px;
+  padding-left: 5px;
+}
+
 .button-kursus {
 	border: 3px solid #ffffff;
 	border-radius: 18px;
 }
 
-.primary-kursus {
+.blue-light {
   background-image: linear-gradient(62deg, #00b9d0 0%, #0077c7 100%);
+}
+
+.primary-kursus {
+  background-image: #FFF;
   color: #FFF;
 }
 
@@ -48,6 +77,8 @@
 
 .title-center {
 	text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-left {

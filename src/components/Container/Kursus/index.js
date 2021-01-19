@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CardKursus from '../../Card/Kursus';
 import { Button } from '../../Button';
 import Carousel from "react-multi-carousel";
+import { GrFormNext } from "react-icons/gr";
 import "react-multi-carousel/lib/styles.css";
 import "./style.css";
 
@@ -9,9 +10,9 @@ const STYLES = ['list-kursus--primary', 'list-kursus--special'];
 
 const COLORS = ['primary-kursus', 'blue-light'];
 
-const TITLE_COLORS = ['title-white', 'primary-title'];
+const TITLE_COLORS = ['primary-title', 'title-white'];
 
-const TITLE_POSITION = ['title-center', 'title-left'];
+const TITLE_POSITION = ['title-left','title-center'];
 
 
 const ContainerKursus =  ({
@@ -20,6 +21,7 @@ const ContainerKursus =  ({
   containerColor,
   titlePosition,
   titleColor,
+  enableMore,
   className
 }) => {
 
@@ -60,13 +62,25 @@ const ContainerKursus =  ({
         ${checkClassName}`}
 		>
 			<div className="card-kursus-list">
-				<h1 className={`card-list-title
-					${checkTitleColor}
-					${checkTitlePosition}
-	        ${checkClassName}`}
-				>
-					Khusus Prakerja
-				</h1>
+				<div className={`card-list-title-wrapper
+					${checkTitlePosition === 'title-center' ? 'card-list-title-center' : 'card-list-title-left'}`}
+					>
+					<h1 className={`card-list-title
+						${checkTitleColor}
+						${checkTitlePosition}
+		        ${checkClassName}`}
+					>
+						Khusus Prakerja
+					</h1>
+					{
+						enableMore && (
+						<div className="card-list-more">
+							Lihat Semua
+							<GrFormNext className="gr-next-icon"/>
+						</div>
+						)
+					}
+				</div>
 				<Carousel 
 					responsive={responsive} 
 					deviceType="desktop"
