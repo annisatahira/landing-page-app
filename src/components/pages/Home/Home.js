@@ -19,6 +19,29 @@ const Home = () => {
       	buttonTitle="Semua Khusus Prakerja"
       	items={homeObjKursus}
       />
+      <ContainerKursus 
+      	title="Terbaru"
+      	items={homeObjKursus}
+      />
+      <ContainerKursus 
+      	title="Best Seller"
+      	items={homeObjKursus}
+      />
+      <ContainerKursus 
+      	title="Kursus Gratis"
+      	items={homeObjKursus}
+      	enableMore={true}
+      />
+      <ContainerKursus 
+      	title="Kursus Bersertifikat"
+      	items={homeObjKursus}
+      	enableMore={true}
+      />
+      <ContainerKursus 
+      	title="Kursus Keuangan"
+      	items={homeObjKursus}
+      	enableMore={true}
+      />
     </>
   )
 };

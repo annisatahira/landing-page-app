@@ -70,7 +70,7 @@ export const homeObjKursus = {
   },
   {
     id: 2,
-    banner: "/images/image1.png",
+    banner: "/images/image2.png",
     bannerAlt: "Mahir Pajak Karyawan Perusahaan",
     title: "Mahir Pajak Karyawan Perusahaan",
     rating: "4.5",
@@ -80,7 +80,7 @@ export const homeObjKursus = {
   },
   {
     id: 3,
-    banner: "/images/image1.png",
+    banner: "/images/image3.png",
     bannerAlt: "Mahir Pajak Karyawan Perusahaan",
     title: "Mahir Pajak Karyawan Perusahaan",
     rating: "4.5",
@@ -90,7 +90,7 @@ export const homeObjKursus = {
   },
   {
     id: 4,
-    banner: "/images/image1.png",
+    banner: "/images/image4.png",
     bannerAlt: "Mahir Pajak Karyawan Perusahaan",
     title: "Mahir Pajak Karyawan Perusahaan",
     rating: "4.5",
