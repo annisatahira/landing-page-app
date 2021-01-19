@@ -10,7 +10,7 @@ const OptionSection = (data) => {
 				{data.options.map((item) => {
 
 					return (
-						<Grid key={item.id} item lg={4}>
+						<Grid key={item.id} md={12} item lg={4}>
 							<CardOption
 								image={item.image}
 								title={item.title}

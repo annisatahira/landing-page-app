@@ -28,7 +28,7 @@ const PendaftaranSection = (data) => {
 					{(data ? data.trainings : []).map((item) => {
 
 						return (
-							<Grid key={item.id} item lg={6}>
+							<Grid key={item.id} item md={6} lg={6}>
 								<CardTraining
 									image={item.image}
 									alt={item.alt}

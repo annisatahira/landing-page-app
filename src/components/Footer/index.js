@@ -59,7 +59,7 @@ const Footer = () => {
 						<ul className="alat-list">
 							{listAlat.items.map((el) => {
 								return (
-									<li>{el.name}</li>
+									<li key={el.id} className="alat-item">{el.name}</li>
 								)
 							})}
 						</ul>
@@ -84,25 +84,25 @@ const Footer = () => {
 						<Grid item sm={12}>
 							<h1 className="footer-featured-bank-title">Metode Pembayaran</h1>
 						</Grid>
-						<Grid item sm={2}>
+						<Grid sm={6} md={12}>
 							<img src="/icons/bank1.svg" alt="" />
 						</Grid>
-						<Grid item sm={2}>
+						<Grid item sm={6} md={12}>
 							<img className="footer-bank-2" src="/icons/bank2.svg" alt="" />
 						</Grid>
-						<Grid item sm={2}>
+						<Grid item sm={6} md={12}>
 							<img src="/icons/bank3.svg" alt="" />
 						</Grid>
-						<Grid item sm={2}>
+						<Grid item sm={6} md={12}>
 							<img src="/icons/bank4.svg" alt="" />
 						</Grid>
-						<Grid item sm={2}>
+						<Grid item sm={6} md={12}>
 							<img src="/icons/bank5.svg" alt="" />
 						</Grid>
-						<Grid item sm={1}>
+						<Grid item sm={6} md={12}>
 							<img src="/icons/bank6.svg" alt="" />
 						</Grid>
-						<Grid item sm={1}>
+						<Grid item sm={6} md={12}>
 							<img src="/icons/bank7.svg" alt="" />
 						</Grid>
 					</Grid>

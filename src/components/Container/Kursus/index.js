@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import CardKursus from '../../Card/Kursus';
 import { Button } from '../../Button';
 import Carousel from "react-multi-carousel";
@@ -39,17 +39,37 @@ const ContainerKursus =  ({
 
   const checkClassName = className ? className : '';
 
+  const [width, setWidth] = useState("desktop");
+
+  const changeBreakpoint = () => {
+    if(window.innerWidth <= 1200) {
+      setWidth("tablet");
+    } else if(window.innerWidth <= 1500) {
+      setWidth("desktop");
+    } else  {
+    	setWidth("superLargeDesktop");
+    }
+  }
+
+  useEffect(() => {
+    changeBreakpoint();
+    window.addEventListener('resize', changeBreakpoint);
+    return (
+      window.removeEventListener('resize', changeBreakpoint)
+    )
+  }, []);
+
   const responsive = {
 	  superLargeDesktop: {
-	    breakpoint: { max: 4000, min: 3000 },
-	    items: 5
-	  },
-	  desktop: {
-	    breakpoint: { max: 3000, min: 1800 },
+	    breakpoint: { max: 4000, min: 1700 },
 	    items: 4
 	  },
+	  desktop: {
+	    breakpoint: { max: 1700, min: 1200 },
+	    items: 3
+	  },
 	  tablet: {
-	    breakpoint: { max: 1024, min: 464 },
+	    breakpoint: { max: 1200, min: 464 },
 	    items: 2
 	  },
 	  mobile: {
@@ -87,7 +107,7 @@ const ContainerKursus =  ({
 				</div>
 				<Carousel 
 					responsive={responsive} 
-					deviceType="desktop"
+					deviceType={changeBreakpoint}
 				>
 					{(items ? items.kursus : []).map((item) => {
 						return (

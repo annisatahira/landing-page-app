@@ -25,3 +25,15 @@
   line-height: 1.7em;
   padding-bottom: 20px;
 }
+
+@media screen and (min-width: 1200px) {
+  .jumbotron-title {
+    font-size: 45px;
+  }
+
+  .jumbotron-description {
+    font-size: 22px;
+    line-height: 1.7em;
+    padding-bottom: 20px;
+  }
+}

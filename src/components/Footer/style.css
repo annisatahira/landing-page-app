@@ -1,6 +1,6 @@
 .container-footer {
 	background-color: #f0f0f1;
-	margin-top: 40px;
+	margin-top: 4rem;
 }
 
 .footer-wrapper, .footer-watermark-wrapper {
@@ -28,7 +28,7 @@ ul {
     list-style-type: none;
 }
 
-ul li {
+.alat-item {
 	padding-top: 20px;
 }
 
@@ -85,5 +85,15 @@ ul li {
 
 .footer-featured-bank-title {
 	padding-bottom: 40px
+}
+
+.footer-featured-bank img {
+	padding: 20px;
+}
+
+@media screen and (min-width: 1500px) {
+  .container-footer {
+		margin-top: 8rem;
+	}
 }
 

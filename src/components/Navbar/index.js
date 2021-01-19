@@ -13,7 +13,7 @@ const Navbar = () => {
   const closeMobileMenu = () => setButton(false);
 
   const showButton = () => {
-    if(window.innerWidth <= 960) {
+    if(window.innerWidth <= 1300) {
       setButton(false);
     } else {
       setButton(true);
@@ -43,27 +43,29 @@ const Navbar = () => {
     <>
         <nav className='navbar'>
           <div className='navbar-container container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <div className="navbar-icon">
-                <img src={logo} alt='arkademi' />
+            <div className="navbar-logo-search-wrapper">
+              <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                <div className="navbar-icon">
+                  <img src={logo} alt='arkademi' />
+                </div>
+              </Link>
+              <div className="navbar-input">
+                <input
+                  type="text" 
+                  id="cari_kursus" 
+                  name="Cari Kursus" 
+                  placeholder="Cari Kursus"
+                >
+                </input>
+                <Button 
+                  type="submit"
+                  buttonSize='btn--medium'
+                  buttonColor='transparent'
+                  className='navbar-input-btn'
+                >
+                  <img className="search-icon" src={search} alt='' />
+                </Button>
               </div>
-            </Link>
-            <div className="navbar-input">
-              <input
-                type="text" 
-                id="cari_kursus" 
-                name="Cari Kursus" 
-                placeholder="Cari Kursus"
-              >
-              </input>
-              <Button 
-                type="submit"
-                buttonSize='btn--medium'
-                buttonColor='transparent'
-                className='navbar-input-btn'
-              >
-                <img className="search-icon" src={search} alt='' />
-              </Button>
             </div>
             <div className='menu-icon' onClick={handleClick}>
               {menuClicked ? <FaTimes /> : <FaBars />}

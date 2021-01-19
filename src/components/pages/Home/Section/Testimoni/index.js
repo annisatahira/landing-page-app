@@ -10,7 +10,7 @@ const TestimoniSection = (data) => {
 				{data.testimoni.map((item) => {
 
 					return (
-						<Grid key={item.id} item xs={12} md={12} lg={4}>
+						<Grid key={item.id} item xs={12} md={4} lg={4}>
 							<CardTestimoni
 								image={item.image}
 								alt={item.name}
