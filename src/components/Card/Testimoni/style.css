@@ -11,10 +11,10 @@
 }
 
 .card-testimoni-content {
-	line-height: 1.7rem;
+	line-height: 2rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .card-testimoni-person img {
@@ -42,14 +42,14 @@
 		padding: 20px 0;
 	}
   	.card-testimoni-content {
-		font-size: 15px;
-		line-height: 1.7rem;
+		font-size: 12px;
+		line-height: 2rem;
 	}
 }
 
 @media screen and (min-width: 1500px) {
   	.card-testimoni-content {
 		line-height: 2.5rem;
-		font-size: 22px;
+		font-size: 12px;
 	}
 }

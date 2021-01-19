@@ -18,13 +18,13 @@
 
 .card-list-title {
 	padding-bottom: 70px;
-	font-size: 42px;
+	font-size: 36px;
 	font-weight: bolder;
 }
 
 .card-list-more {
   color: #171718;
-  font-size: 25px;
+  font-size: 15px;
   padding-bottom: 70px;
   display: flex;
   align-items: center;

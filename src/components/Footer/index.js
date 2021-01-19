@@ -84,25 +84,25 @@ const Footer = () => {
 						<Grid item sm={12}>
 							<h1 className="footer-featured-bank-title">Metode Pembayaran</h1>
 						</Grid>
-						<Grid sm={6} md={12}>
+						<Grid sm={6} md={12} lg={2}>
 							<img src="/icons/bank1.svg" alt="" />
 						</Grid>
-						<Grid item sm={6} md={12}>
+						<Grid item sm={6} md={12} lg={2}>
 							<img className="footer-bank-2" src="/icons/bank2.svg" alt="" />
 						</Grid>
-						<Grid item sm={6} md={12}>
+						<Grid item sm={6} md={12} lg={2}>
 							<img src="/icons/bank3.svg" alt="" />
 						</Grid>
-						<Grid item sm={6} md={12}>
+						<Grid item sm={6} md={12} lg={2}>
 							<img src="/icons/bank4.svg" alt="" />
 						</Grid>
-						<Grid item sm={6} md={12}>
+						<Grid item sm={6} md={12} lg={2}>
 							<img src="/icons/bank5.svg" alt="" />
 						</Grid>
-						<Grid item sm={6} md={12}>
+						<Grid item sm={6} md={12} lg={1}>
 							<img src="/icons/bank6.svg" alt="" />
 						</Grid>
-						<Grid item sm={6} md={12}>
+						<Grid item sm={6} md={12} lg={1}>
 							<img src="/icons/bank7.svg" alt="" />
 						</Grid>
 					</Grid>

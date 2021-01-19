@@ -11,11 +11,11 @@
 }
 
 .card-option-title {
-	font-size: 28px;
+	font-size: 15px;
 	padding-bottom: 20px;
 }
 
 .card-option-description {
-	line-height: 1.5rem;
+	line-height: 2rem;
 	color: #6b707e;
 }

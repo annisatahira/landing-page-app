@@ -66,7 +66,7 @@ const ContainerKursus =  ({
 	  },
 	  desktop: {
 	    breakpoint: { max: 1700, min: 1200 },
-	    items: 3
+	    items: 4
 	  },
 	  tablet: {
 	    breakpoint: { max: 1200, min: 464 },

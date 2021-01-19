@@ -8,13 +8,13 @@
 }
 
 .pendaftaran-title {
-	font-size: 48px;
+	font-size: 32px;
 	padding: 40px 0;
 }
 
 .pendaftaran-description-1, .pendaftaran-description-2 {
-	font-size: 20px;
-	line-height: 1.7rem;
+	font-size: 15px;
+	line-height: 2rem;
 }
 
 .pendaftaran-description-2 {

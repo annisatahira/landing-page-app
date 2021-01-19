@@ -145,15 +145,24 @@ const Navbar = () => {
                   </Link>
                   </>
                 ) : (
-                  <Link to='#sign-up' className='btn-link'>
-                    <Button
+                  <>
+                  <Link to='#masuk' className='btn-link'>
+                    <Button 
                       buttonStyle='btn--outline'
-                      buttonSize='btn--mobile'
-                      onClick={closeMobileMenu}
+                      buttonColor='white'
+                    >
+                      Masuk
+                    </Button>
+                  </Link>
+                  <Link to='#daftar' className='btn-link'>
+                    <Button 
+                      buttonStyle='btn--outline'
+                      buttonColor='blue'
                     >
                       Daftar
                     </Button>
                   </Link>
+                  </>
                 )}
               </li>
             </ul>

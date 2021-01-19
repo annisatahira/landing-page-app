@@ -28,12 +28,12 @@
 
 @media screen and (min-width: 1200px) {
   .jumbotron-title {
-    font-size: 45px;
+    font-size: 36px;
   }
 
   .jumbotron-description {
-    font-size: 22px;
-    line-height: 1.7em;
+    font-size: 15px;
+    line-height: 2.3em;
     padding-bottom: 20px;
   }
 }

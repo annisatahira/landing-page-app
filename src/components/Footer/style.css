@@ -15,8 +15,8 @@
 
 .footer-description, .footer-highlight-description {
 	color: #333436;
-	font-size: 18px;
-	line-height: 2rem;
+	font-size: 12px;
+	line-height: 1.7rem;
 	padding-bottom: 40px;
 }
 
@@ -30,6 +30,7 @@ ul {
 
 .alat-item {
 	padding-top: 20px;
+	font-size: 12px;
 }
 
 .footer-ic-comment {
@@ -39,7 +40,7 @@ ul {
 
 .footer-title {
 	z-index: 1;
-	font-size: 28px;
+	font-size: 18px;
 }
 
 .footer-app-desc {
@@ -79,7 +80,7 @@ ul {
 }
 
 .footer-watermark-title {
-	font-size: 18px;
+	font-size: 12px;
 	font-weight: lighter;
 }
 
@@ -91,7 +92,7 @@ ul {
 	padding: 20px;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1024px) {
   .container-footer {
 		margin-top: 8rem;
 	}

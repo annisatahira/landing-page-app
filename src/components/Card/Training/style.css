@@ -18,13 +18,13 @@
 
 .card-training-title {
   padding: 20px 0;
-  font-size: 22px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .card-training-description {
-  font-size: 18px;
-  line-height: 1.7rem;
+  font-size: 12px;
+  line-height: 2rem;
   padding-bottom: 25px
 }
 
