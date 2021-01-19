@@ -89,13 +89,13 @@
 .react-multiple-carousel__arrow {
 	border-radius: 50%;
   background: white;
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 70px;
+  min-height: 70px;
   box-shadow: 0px 9px 12px rgba(68,69,76,0.1);
 }
 
 .react-multiple-carousel__arrow::before {
-    font-size: 54px;
+    font-size: 35px;
     color: #ababae;
     font-weight: bold;
 }

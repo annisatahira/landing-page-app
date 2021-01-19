@@ -56,23 +56,57 @@ export const homeObjKelas =
     ]
   }
 
-export const homeObjKelass = [
+export const homeObjKursus = {
+  "kursus": [
   {
     id: 1,
-    img: '/icons/pemasaran.png',
-    alt: 'pemasaran',
-    title: 'Pemasaran'
+    banner: "/images/image1.png",
+    bannerAlt: "Mahir Pajak Karyawan Perusahaan",
+    title: "Mahir Pajak Karyawan Perusahaan",
+    rating: "4.5",
+    jumlahPeserta: 2000,
+    teacherImage: "/images/glints.png",
+    teacherName: "Glints",
   },
   {
     id: 2,
-    img: '/icons/pemasaran.png',
-    alt: 'teknologi',
-    title: 'Teknologi'
+    banner: "/images/image1.png",
+    bannerAlt: "Mahir Pajak Karyawan Perusahaan",
+    title: "Mahir Pajak Karyawan Perusahaan",
+    rating: "4.5",
+    jumlahPeserta: 2000,
+    teacherImage: "/images/glints.png",
+    teacherName: "Glints",
   },
   {
     id: 3,
-    img: '/icons/pemasaran.png',
-    alt: 'media',
-    title: 'Media'
-  }
-]
+    banner: "/images/image1.png",
+    bannerAlt: "Mahir Pajak Karyawan Perusahaan",
+    title: "Mahir Pajak Karyawan Perusahaan",
+    rating: "4.5",
+    jumlahPeserta: 2000,
+    teacherImage: "/images/glints.png",
+    teacherName: "Glints",
+  },
+  {
+    id: 4,
+    banner: "/images/image1.png",
+    bannerAlt: "Mahir Pajak Karyawan Perusahaan",
+    title: "Mahir Pajak Karyawan Perusahaan",
+    rating: "4.5",
+    jumlahPeserta: 2000,
+    teacherImage: "/images/glints.png",
+    teacherName: "Glints",
+  },
+  {
+    id: 5,
+    banner: "/images/image1.png",
+    bannerAlt: "Mahir Pajak Karyawan Perusahaan",
+    title: "Mahir Pajak Karyawan Perusahaan",
+    rating: "4.5",
+    jumlahPeserta: 2000,
+    teacherImage: "/images/glints.png",
+    teacherName: "Glints",
+  },
+  ]
+}

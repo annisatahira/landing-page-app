@@ -4,30 +4,33 @@ import { FaStar } from 'react-icons/fa';
 import { BsPeopleCircle } from 'react-icons/bs';
 import './style.css';
 
-const CardKursus = () => {
+const CardKursus = ({
+  banner, bannerAlt, title, rating, 
+  jumlahPeserta, teacherImage, teacherName
+}) => {
   return (
     <div className="card card-kursus-wrapper">
       <div className="card-kursus-image-wrapper">
         <div className="card-kursus-image">
-          <img src="/images/image1.png" alt="image1"/>
+          <img src={banner} alt={bannerAlt}/>
         </div>
       </div>
-      <h1 className="card-kursus-title">Mahir Pajak Karyawan Perusahaan</h1>
+      <h1 className="card-kursus-title">{title}</h1>
       <div className="card-kursus-status">
         <div className="status-star">
           <FaStar className="star"/>
-          <span className="rating">4.5</span>
+          <span className="rating">{rating}</span>
         </div>
         <div className="status-peserta">
           <img className="people" src="/icons/people.png" alt=""/>
-          2000
+          {jumlahPeserta}
         </div>
       </div>
       <div className="card-kursus-teacher">
         <div className="teacher-image">
-          <img src="/images/glints.png" alt="Pemasaran"/>
+          <img src={teacherImage} alt={teacherName}/>
         </div>
-        <h1 className="teacher-name">Glints</h1>
+        <h1 className="teacher-name">{teacherName}</h1>
       </div>
       <div className="card-kursus-checkout">
         <div className="checkout-harga">

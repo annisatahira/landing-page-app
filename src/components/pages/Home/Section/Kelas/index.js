@@ -4,8 +4,6 @@ import './style.css';
 
 const KelasSection = (data) => {
 
-	console.log("tes", data)
-
   return(
 		<div className="kelas-container">
 			{data.kelas.map((item) => {

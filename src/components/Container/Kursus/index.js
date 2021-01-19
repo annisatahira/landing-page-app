@@ -19,10 +19,14 @@ const ContainerKursus =  ({
   children,
   containerStyle,
   containerColor,
+  title,
   titlePosition,
   titleColor,
   enableMore,
-  className
+  enableButton,
+  buttonTitle,
+  className,
+  items
 }) => {
 
   const checkContainerStyle = STYLES.includes(containerStyle) ? containerStyle : STYLES[0];
@@ -70,7 +74,7 @@ const ContainerKursus =  ({
 						${checkTitlePosition}
 		        ${checkClassName}`}
 					>
-						Khusus Prakerja
+						{title}
 					</h1>
 					{
 						enableMore && (
@@ -85,21 +89,34 @@ const ContainerKursus =  ({
 					responsive={responsive} 
 					deviceType="desktop"
 				>
-					<CardKursus />
-					<CardKursus />
-					<CardKursus />
-					<CardKursus />
-					<CardKursus />
+					{(items ? items.kursus : []).map((item) => {
+						return (
+							<CardKursus 
+								key={item.id}
+								banner={item.banner}
+								bannerAlt={item.bannerAlt}
+								title={item.title}
+								rating={item.rating}
+								jumlahPeserta={item.jumlahPeserta}
+								teacherImage={item.teacherImage}
+								teacherName={item.teacherName}
+							/>
+						)
+					})}
 				</Carousel>
-				<div className="card-kursus-list-button">
-					<Button
-						buttonSize="btn--wide"
-						buttonColor="transparent"
-						className="button-kursus"
-					>
-						Semua Kursus Prakerja
-					</Button>
-				</div>
+				{
+					enableButton && (
+						<div className="card-kursus-list-button">
+							<Button
+								buttonSize="btn--wide"
+								buttonColor="transparent"
+								className="button-kursus"
+							>
+								{buttonTitle}
+							</Button>
+						</div>
+					)
+				}
 			</div>
 		</div>
 	)

@@ -1,7 +1,7 @@
 import React from 'react';
 import Jumbotron from '../../Jumbotron';
 import ContainerKursus from '../../Container/Kursus';
-import { homeObjJumbotron, homeObjKelas } from './Data';
+import { homeObjJumbotron, homeObjKelas, homeObjKursus } from './Data';
 import KelasSection from './Section/Kelas';
 
 const Home = () => {
@@ -9,7 +9,16 @@ const Home = () => {
     <>
       <Jumbotron {...homeObjJumbotron} />
       <KelasSection {...homeObjKelas}/>
-      <ContainerKursus />
+      <ContainerKursus 
+      	containerStyle="list-kursus--spesial"
+      	containerColor="blue-light"
+      	title="Khusus Prakerja"
+      	titlePosition="title-center"
+      	titleColor="title-white"
+      	enableButton={true}
+      	buttonTitle="Semua Khusus Prakerja"
+      	items={homeObjKursus}
+      />
     </>
   )
 };
