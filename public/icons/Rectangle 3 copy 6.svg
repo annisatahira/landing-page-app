@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 626" width="1920" height="626">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 -8211L1920 -8211L1920 711L0 711Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f0f0f1 } 
+	</style>
+	<g id="Home Page (M-Desktop)" clip-path="url(#cp1)">
+		<path id="Rectangle 3 copy 6" class="shp0" d="M0 1L1920 1L1920 625L0 625L0 1Z" />
+	</g>
+</svg>
